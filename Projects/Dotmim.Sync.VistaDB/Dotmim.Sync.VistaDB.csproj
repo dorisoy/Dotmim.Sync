@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworkNet5>net5.0</TargetFrameworkNet5>
+    <TargetFrameworkNetCore>netcoreapp3.1</TargetFrameworkNetCore>
+
+    <TargetFrameworks>$(TargetFrameworkNetStandard);$(TargetFrameworkNet5);$(TargetFrameworkNetCore)</TargetFrameworks>
+
+    <Authors>Sébastien Pertus</Authors>
+    <Company>Microsoft</Company>
+    <Title>Dotmim.Sync.VistaDB</Title>
+    <Summary>VistaDB Sync Provider. Client provider .Net Standard 2.0</Summary>
+    <Description>VistaDB Sync Provider. Manage a sync process beetween two relational databases provider. This provider works with VistaDB and can be used only as Client provider. Use SqlSyncProvider or MySqlSyncProvider for the server side .Net Standard 2.0</Description>
+    <PackageProjectUrl>https://dotmimsync.readthedocs.io/</PackageProjectUrl>
+    <PackageIconFullPath>../../docs/assets/packageIcon.png</PackageIconFullPath>
+    <RepositoryUrl>https://github.com/Mimetis/Dotmim.Sync</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Data, Database, Sync, Synchronization, Framework, VistaDB, Sql, MySql, Sqlite, Dotmim.Sync, NetStandard, SyncFramework</PackageTags>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Version>0.8.1</Version>
+    <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
+    <LangVersion>8.0</LangVersion>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageIcon>packageIcon.png</PackageIcon>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\docs\assets\packageIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+    <ProjectReference Include="..\Dotmim.Sync.Core\Dotmim.Sync.Core.csproj" />
+  </ItemGroup>
+
+</Project>
+

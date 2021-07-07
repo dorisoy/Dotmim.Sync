@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.Core", "Projects\Dotmim.Sync.Core\Dotmim.Sync.Core.csproj", "{C58C0E87-84B4-4DC7-A2F2-CCC2B9DAEF86}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.SqlServer.ChangeTracking", "Projects\Dotmim.Sync.SqlServer.ChangeTracking\Dotmim.Sync.SqlServer.ChangeTracking.csproj", "{8DB5316F-FE85-4C16-B3FF-3D5077523EC2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotmim.Sync.MariaDB", "Projects\Dotmim.Sync.MariaDB\Dotmim.Sync.MariaDB.csproj", "{89D71A50-501D-4142-9133-FCCD267E1A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotmim.Sync.VistaDB", "Projects\Dotmim.Sync.VistaDB\Dotmim.Sync.VistaDB.csproj", "{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -198,6 +200,22 @@ Global
 		{89D71A50-501D-4142-9133-FCCD267E1A26}.Release|x64.Build.0 = Release|Any CPU
 		{89D71A50-501D-4142-9133-FCCD267E1A26}.Release|x86.ActiveCfg = Release|Any CPU
 		{89D71A50-501D-4142-9133-FCCD267E1A26}.Release|x86.Build.0 = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|ARM.Build.0 = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|x64.Build.0 = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Debug|x86.Build.0 = Debug|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|ARM.Build.0 = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|x64.ActiveCfg = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|x64.Build.0 = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|x86.ActiveCfg = Release|Any CPU
+		{2ED67BF3-8ED9-41A5-A1E1-FABF6EB7C406}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,8 +225,8 @@ Global
 		{79BA3E42-9D2A-4A08-B40C-5309AE6F8ED5} = {2E7CD7E6-8D9F-47E0-B5E3-4CF58C85F273}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {348020ED-748B-4CC8-AA1D-9F7D36E2AC12}
 		BuildVersion_StartDate = 2000/1/1
+		SolutionGuid = {348020ED-748B-4CC8-AA1D-9F7D36E2AC12}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
